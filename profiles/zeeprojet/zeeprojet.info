@@ -1,0 +1,88 @@
+name = ZeeProjet
+description = Installation Drupal de base pour les projets Zee Agency.
+version = 0.1
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+;Ne plus inclure le module comment
+;dependencies[] = comment
+
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = locale
+dependencies[] = syslog
+
+
+; en plus pour la distribution ZeeProjet
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = ctools
+dependencies[] = panels
+dependencies[] = workbench
+dependencies[] = page_manager
+
+
+dependencies[] = media
+
+
+
+dependencies[] = file_entity
+dependencies[] = transliteration
+dependencies[] = styleguide
+dependencies[] = token
+
+
+dependencies[] = page_title
+dependencies[] = pathauto
+
+
+
+;dependencies[] = variable
+;dependencies[] = i18n
+;dependencies[] = l10n_update
+
+
+
+dependencies[] = features
+dependencies[] = context
+
+
+dependencies[] = role_delegation
+
+
+; Il permet de switcher de theme
+; suivant des cas bien précis comme une url
+; dans notre case user/ avec le thème d'adminstration 
+dependencies[] = themekey
+dependencies[] = strongarm
+
+
+
+; Information added by drush on 2013-02-18
+version = "develop-dev"
+project = "zeeprojet"
+datestamp = "1361201373"
+
+
+
+; Information added by drush on 2013-02-23
+version = "develop-dev"
+project = "zeeprojet"
+datestamp = "1361630006"
+

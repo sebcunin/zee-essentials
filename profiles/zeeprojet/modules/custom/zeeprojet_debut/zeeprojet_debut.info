@@ -1,0 +1,32 @@
+name = Zeeprojet Debut
+description = Ajout de paramètres pour la distribution ZeeProjet
+core = 7.x
+package = Zee
+php = 5.2.4
+dependencies[] = features
+dependencies[] = node
+dependencies[] = translation
+dependencies[] = webform
+features[features_api][] = api:1
+features[user_permission][] = access all webform results
+features[user_permission][] = access own webform results
+features[user_permission][] = access own webform submissions
+features[user_permission][] = create webform content
+features[user_permission][] = delete all webform submissions
+features[user_permission][] = delete any webform content
+features[user_permission][] = delete own webform content
+features[user_permission][] = delete own webform submissions
+features[user_permission][] = edit all webform submissions
+features[user_permission][] = edit any webform content
+features[user_permission][] = edit own webform content
+features[user_permission][] = edit own webform submissions
+features[user_permission][] = translate content
+features[user_role][] = contributeur
+features[user_role][] = zee_member
+
+
+; Information added by drush on 2013-02-23
+version = "develop-dev"
+project = "zeeprojet"
+datestamp = "1361630006"
+

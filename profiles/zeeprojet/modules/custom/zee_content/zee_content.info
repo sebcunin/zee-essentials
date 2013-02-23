@@ -1,0 +1,32 @@
+name = Zee Content
+description = Ajouter des vues, des fields
+core = 7.x
+package = Zee
+php = 5.2.4
+version = develop-dev
+project = zeeprojet
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = field_sql_storage
+dependencies[] = image
+dependencies[] = media
+dependencies[] = node
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = views
+datestamp = 1361203870
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:1
+features[field][] = node-article-body
+features[field][] = node-article-field_image
+features[field][] = node-article-field_tags
+features[node][] = article
+features[taxonomy][] = tags
+features[views_view][] = contenu_utilisateur
+
+
+; Information added by drush on 2013-02-23
+version = "develop-dev"
+project = "zeeprojet"
+datestamp = "1361630006"
+

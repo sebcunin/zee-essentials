@@ -36,7 +36,10 @@ dependencies[] = ctools
 dependencies[] = panels
 dependencies[] = workbench
 dependencies[] = page_manager
+
+; ajout du 2013/04/14
 dependencies[] = entityreference
+dependencies[] = diff
 
 
 dependencies[] = media

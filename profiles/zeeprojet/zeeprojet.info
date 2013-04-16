@@ -36,6 +36,7 @@ dependencies[] = ctools
 dependencies[] = panels
 dependencies[] = workbench
 dependencies[] = page_manager
+dependencies[] = entityreference
 
 
 dependencies[] = media
@@ -73,11 +74,6 @@ dependencies[] = themekey
 dependencies[] = strongarm
 
 
-
-; Information added by drush on 2013-02-18
-version = "develop-dev"
-project = "zeeprojet"
-datestamp = "1361201373"
 
 
 

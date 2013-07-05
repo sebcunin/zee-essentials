@@ -1,4 +1,4 @@
-zee-essentials
+Zee Essentials
 ==============
 
 Distribution Drupal Zee Essential

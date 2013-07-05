@@ -2,7 +2,7 @@ Zee Essentials
 ==============
 
 Zee Essentials est une distribution Drupal utilisée par les équipes de l'agence ZeeAgency.
-Il permet de débuter un projet Drupal, avec tous les fonctions de base attendus pour un CMS.
+Il permet de débuter rapidement un projet Drupal, avec tous les fonctions de base attendus pour un CMS.
 
 - Gestion du workflow,
 - Médiathéque,
